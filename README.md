@@ -1,5 +1,5 @@
 # Goal:
->Sniff NFC traffic at public transport terminals
+Sniff NFC traffic at public transport terminals
 
 # Setup:
 1. airspy mini
