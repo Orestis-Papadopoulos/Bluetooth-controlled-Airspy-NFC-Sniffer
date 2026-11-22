@@ -15,9 +15,9 @@ Sniff NFC traffic at public transport terminals
 
 # Instructions
 
-1. Install Microsoft Visual C++ Redistributable
+1. Install Microsoft Visual C++ Redistributables
    - latest version at https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
-   - 2010 version https://www.microsoft.com/en-us/download/details.aspx?id=26999
+   - 2010 version at https://www.microsoft.com/en-us/download/details.aspx?id=26999
 3. Download "airspy_host_tools_win32_x86_x64_v1_0_10.zip" from: https://github.com/airspy/airspyone_host/releases?utm_source=chatgpt.com#release-v1.0.10
 4. Extract the downloaded folder
 5. Put the .py files together with the executables
