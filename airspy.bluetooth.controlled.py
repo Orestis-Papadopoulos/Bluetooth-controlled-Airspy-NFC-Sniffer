@@ -1,4 +1,5 @@
 
+import time
 import subprocess
 from pathlib import Path
 import os
@@ -44,6 +45,7 @@ if __name__ == "__main__":
 
         output_file_counter = 0
         while True:
+            time.sleep(.1)
             if bt.in_waiting == 0: continue
             command = bt.readline().decode('utf-8').strip().lower()
 
