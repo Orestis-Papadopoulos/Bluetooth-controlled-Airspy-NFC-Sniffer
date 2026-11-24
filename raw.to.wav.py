@@ -2,17 +2,14 @@
 import wave
 import argparse
 
-# to run:
-# py raw.to.wav.py input.raw output.wav
+# to run on cmd: 'py raw.to.wav.py input.raw output.wav'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('raw_filename')
 parser.add_argument('output_filename')
 args = parser.parse_args()
 
-# raw_file = "capture.raw"
 raw_file = args.raw_filename
-# wav_file = "output.wav"
 wav_file = args.output_filename
 
 # airspy mini, nfc-a: sample rate = 10000000, stereo, 16-bit
